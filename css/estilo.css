@@ -1,27 +1,44 @@
 h1{
-    color: lightcoral;
+    justify-content: center;
+    color: rgb(140, 209, 226);
 }
-  input[type=textfield] {
-      width: 18%;
-      padding: 30px 30px;
-      font-size: px;
-      margin: 8px 0;
-      border: 1px solid silver;
-      border-radius: 2x;
-      text-align: left;
-      color: #ffffff;
-      background: lightcoral;
-  }
-  input[type=button], input[type=submit], input[type=reset] {
-      background-color: #2ad4fad3;
-      border: none;
-      color: white;
-      padding: 16px 32px;
-      font-size: 16px;
-      min-width: 21px;
-      text-decoration: none;
-      margin: 2px 0.5px;
-      cursor: pointer;
-  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+button {
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #ffa0a0;
+   }
+
+.display {
+    grid-column: 1 / -1;
+    padding: 16px;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    background-color: #b8ffef;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    }
+
+
   
     
