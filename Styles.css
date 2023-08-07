@@ -1,0 +1,14 @@
+.btn {background-color: rgb(163, 127, 160);
+    padding: 15%  15%;
+    color: aqua;
+    margin-bottom: 15%;
+    border-radius: 30%;
+    width: 100px;
+    height: 70px;
+}
+
+/* estilo display  */
+.form-control{
+width: 23%;
+height: 20%;
+}
